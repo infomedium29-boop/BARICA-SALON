@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Na Cloudflare Pages automatski se poslužuje dinamički robots.txt s ispravnom sitemap URL adresom.
