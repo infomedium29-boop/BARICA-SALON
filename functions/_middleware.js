@@ -1,4 +1,3 @@
-/** Cloudflare Pages Functions. SEO tags use the real deployed hostname. */
 export async function onRequest(context) {
   const response = await context.next();
   const type = response.headers.get('content-type') || '';

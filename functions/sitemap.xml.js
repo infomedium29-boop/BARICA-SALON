@@ -1,4 +1,3 @@
-/** Valid absolute sitemap URLs, based on actual Cloudflare Pages host. */
 export function onRequest({request}){
   const base=new URL(request.url).origin;
   const routes=['/','/usluge/','/o-nama/','/galerija/','/kontakt/','/politika-privatnosti/','/uvjeti-koristenja/','/politika-kolacica/'];
